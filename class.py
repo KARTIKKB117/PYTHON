@@ -1,9 +1,9 @@
 class employee :
-    language = 'py'
+    language = 'py'   # this is class attribute 
     salary = 1000
     
 harry = employee()
-harry.name = 'harry'
+harry.name = 'harry' # this is object attribute 
 print(harry.name ,harry.language, harry.salary)
     
 rohan = employee()
